@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  color: #fff;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 10;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  color: #80ffea;
+  text-shadow: 2px 2px 8px #0f0;
+}
+
+.editor, .harley {
+  background-color: rgba(30, 30, 30, 0.8);
+  border-left: 5px solid #8a2be2;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0f0;
+}
+
+.editor h2, .harley h2 {
+  color: #ff4081;
+}
+
+.glitch-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://i.gifer.com/VgG.gif") center/cover no-repeat;
+  opacity: 0.1;
+  z-index: 1;
+  animation: flicker 5s infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.05; }
+  50% { opacity: 0.15; }
+  100% { opacity: 0.05; }
+}
