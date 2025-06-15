@@ -1,0 +1,13 @@
+window.addEventListener('load', () => {
+  const laugh = document.getElementById("joker-laugh");
+  laugh.volume = 0.6;
+
+  const music = document.getElementById("bg-music");
+  music.volume = 0.3;
+
+  // Prevenir que se detenga al bloquear pantalla
+  document.body.addEventListener("click", () => {
+    music.play();
+    laugh.play();
+  });
+});
