@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Jokerzene - Manual del Caos</title>
+</head>
+<body>
+  <div class="glitch-bg"></div>
+  <audio id="joker-laugh" src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_8a6d3ec0c3.mp3" autoplay></audio>
+  <audio id="bg-music" src="https://files.catbox.moe/lqcrfv.mp3" loop autoplay></audio>
+
+  <div class="container">
+    <header>
+      <h1>Tu espacio es tu mente... disfrútala</h1>
+    </header>
+
+    <main>
+      <section class="editor" contenteditable="true">
+        <h2>🃏 Manual del Caos</h2>
+        <p>Escribe aquí tus ideas más locas, planes malévolos o frases inolvidables...</p>
+      </section>
+
+      <section class="harley">
+        <h2>❤️ Harley Quinn</h2>
+        <p>Solo así… Harley Quinn. Protagonista: Carolina.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
